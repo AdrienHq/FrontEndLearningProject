@@ -1,3 +1,35 @@
-h1 {
-    color: aqua;
+body {
+    margin: 0
+}
+.header {
+    background: grey;
+    padding: 20px;
+    height: auto
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header-title {
+    margin-top: 0;
+}
+
+.nav-menu {
+   margin: 50px 0;
+}
+
+.nav-menu a{
+    padding: 0 10px;
+}
+
+.main {
+    background: lightgrey ;
+    padding: 20px;
+}
+
+.footer {
+    background: grey;
+    padding: 10px 20px;
 }
