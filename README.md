@@ -1,4 +1,4 @@
-# FrontEndMuchWow
+# Front End Much Wow
 FrontEnd Dev Learning
 
 # Software Used 
