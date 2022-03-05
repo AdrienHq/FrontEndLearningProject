@@ -1,10 +1,14 @@
 body {
-    margin: 0
+    margin: 0;
+    line-height: 1.4;
+    font-family: "Source Code Pro", "Comic Sans MS";
 }
 .header {
     background: grey;
     padding: 20px;
-    height: auto
+    height: auto;
+    color: white;
+    font-size: 14px;
 }
 
 .header img {
@@ -14,19 +18,33 @@ body {
 
 .header-title {
     margin-top: 0;
+    font-weight: lighter;
 }
 
 .nav-menu {
-   margin: 50px 0;
+    margin: 50px 0;
+    text-align: center;
 }
 
 .nav-menu a{
     padding: 0 10px;
+    color: inherit;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-menu a:hover{
+    text-decoration: underline;
 }
 
 .main {
     background: lightgrey ;
     padding: 20px;
+    font-size: 16px;
+}
+
+.main p {
+    text-align: justify;
 }
 
 .footer {
