@@ -3,12 +3,18 @@ body {
     line-height: 1.4;
     font-family: "Source Code Pro", "Comic Sans MS";
 }
+
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background: grey;
     padding: 20px;
-    height: auto;
+    height: 30px;
     color: white;
     font-size: 14px;
+    z-index: 2;
 }
 
 .header img {
@@ -17,13 +23,21 @@ body {
 }
 
 .header-title {
+    position: absolute;
+    left: 10px;
+    top: 10px;
     margin-top: 0;
     font-weight: lighter;
+    z-index: 4;
 }
 
 .nav-menu {
-    margin: 50px 0;
+    margin: 20px 0;
     text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
 }
 
 .nav-menu a{
@@ -39,12 +53,14 @@ body {
 
 .main {
     background: lightgrey ;
-    padding: 20px;
+    padding: 70px 20px 20px;
     font-size: 16px;
+    z-index: 1;
 }
 
 .main p {
     text-align: justify;
+    margin-bottom:  1.5rem;
 }
 
 .footer {
