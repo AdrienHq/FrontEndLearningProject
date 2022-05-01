@@ -1,7 +1,12 @@
-body {
+@font-face {
+    font-family: 'MyFont';
+    src: url("/fonts/CenturyGothic-01.ttf") format("truetype");
+    font-weight: 400;
+}
+body,html {
     margin: 0;
     line-height: 1.4;
-    font-family: "Source Code Pro", "Comic Sans MS";
+    font-family: "MyFont", sans-serif ;
 }
 .header {
    /* position: fixed;
@@ -10,7 +15,7 @@ body {
     right: 0;*/
     background: grey;
     padding: 20px;
-    height: 400px;
+    height: 350px;
     color: white;
     font-size: 14px;
     z-index: 2;
@@ -25,6 +30,7 @@ body {
 .header img {
     width: 100%;
     height: auto;
+    -webkit-filter: grayscale(100%);
 }
 .header-title {
     width: 400px;
@@ -65,7 +71,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 300px;
-    background: lightgrey;
+    background: #7395AE;
     align-items: flex-start;
 }
 .banner h1{
@@ -82,7 +88,7 @@ body {
     line-height: 1;
 }
 .main {
-    background: lightgrey ;
+    background: #5D5C61;
     padding: 70px 20px 20px;
     font-size: 16px;
     z-index: 1;
@@ -98,10 +104,10 @@ body {
 .sidebar{
     flex: none;
     width: 250px;
-    background: white;
+    background: #B1A296;
 }
 .footer {
-    background: grey;
+    background: #7395AE;
     padding: 10px 20px;
     text-align: center;
 }
@@ -115,4 +121,8 @@ body {
 }
 hr {
     clear: both;
+}
+.important{
+    font-size: 1.2em;
+    color: #B1A296!important;
 }
