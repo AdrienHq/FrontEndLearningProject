@@ -12,5 +12,5 @@ body{
 }
 
 .header{
-
+    background: url(img/imgHeader.jpg) center center / cover no-repeat ;
 }
