@@ -126,3 +126,30 @@ hr {
     font-size: 1.2em;
     color: #B1A296!important;
 }
+
+p::first-letter{
+    font-size: 2em;
+}
+
+blockquote{
+    background: rgba(0,0,0, 0.1);
+    padding: 10px;
+}
+
+blockquote::before {
+    content: '“';
+    position: absolute;
+    /*top: 5px;*/
+    left: 15px;
+    font-size: 60px;
+    line-height: 1.4rem;
+}
+
+blockquote::after {
+    content: '”';
+    position: absolute;
+    /*bottom: -26px;*/
+    right: 630px;
+    font-size: 60px;
+    line-height: 1.4rem;
+}
