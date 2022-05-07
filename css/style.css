@@ -121,11 +121,19 @@ img {
 .more {
     color: #C89446;
 }
-.more:hover{
+.more a:hover{
     text-decoration: underline;
 }
-.more::after {
+.more a::after {
     content: '  >';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-left: 0.5em;
+    transition: transform .3s;
+}
+.more a:hover:after{
+    transform: translateX(5px);
 }
 .block-img {
     max-width: 350px;
@@ -231,6 +239,7 @@ img {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    border-radius: 2px;
 }
 .reservation select{
     background: no-repeat right 0.5rem center url("/img/check.svg");
@@ -270,6 +279,50 @@ img {
 }
 select option{
     color: black;
+}
+.recipes{
+    padding: 50px 0;
+}
+.recipes .more{
+    display: block;
+    text-align: right;
+    margin-top: 60px;
+}
+.recipes-list{
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+.recipes-list strong{
+    color: #383838;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.recipes-date strong{
+    font-size: 1.75rem;
+    display: block;
+}
+.recipes-list-item {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.recipes-list-item:last-child {
+    border-bottom: 0;
+}
+.recipes-list{
+    max-width: 920px;
+    margin-left: auto;
+}
+.recipes-list-item{
+    display: flex;
+}
+.recipes-list-item{
+    margin-top: 0;
+}
+.recipes-date{
+    width: 60px;
+    flex: none;
+    line-height: 1;
 }
 
 @media only screen and (min-width: 600px ) {
@@ -445,5 +498,31 @@ select option{
     }
     .reservation .button{
         width: calc(33.33% - 20px);
+    }
+    .recipes{
+        padding: 60px 0;
+    }
+    .recipes .title{
+        text-align: right;
+    }
+    .recipes .container > p{
+        text-align: right;
+        max-width: 716px;
+        margin-left: auto;
+    }
+    .recipes-date{
+        width: 95px;
+        flex: none;
+    }
+    .recipes-list{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .recipes-list-item{
+        margin-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .recipes-list-item:last-child{
+        padding-bottom: 0;
     }
 }
