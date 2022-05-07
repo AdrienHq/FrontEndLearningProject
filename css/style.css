@@ -353,4 +353,17 @@ img {
         border: solid 1px #C89446;
         transform: translate(-50%, -260px) rotate(45deg);
     }
+    .block-chief {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .block-chief .block-img::before {
+        display: none;
+    }
+    .block-chief .block-img {
+        flex: none;
+        width: 404px;
+        order: 2;
+    }
 }
