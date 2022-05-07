@@ -1,235 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My project to learn front end dev">
-    <title>Umami Restaurant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" media="screen">
-</head>
-<body>
-    <header class="header">
-        <div class="top-bar">
-            <div class="logo">
-                <a href="/index.html">( U )( MA )( MI )</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My project to learn front end dev">
+        <title>Umami Restaurant</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" media="screen">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+                <div class="logo">
+                    <a href="/index.html">( U )( MA )( MI )</a>
+                </div>
+                <nav class="menu">
+                    <a href="/about.html" class="menu-item">About us</a>
+                    <a href="/menu.html" class="menu-item">Menu</a>
+                    <a href="/recipes.html" class="menu-item">Recipes</a>
+                    <a href="/contact.html" class="menu-item">Contact</a>
+                    <a href="/reservations.html" class="menu-item menu-button">Reservations</a>
+                </nav>
             </div>
-            <nav class="menu">
-                <a href="/about.html" class="menu-item">About us</a>
-                <a href="/menu.html" class="menu-item">Menu</a>
-                <a href="/recipes.html" class="menu-item">Recipes</a>
-                <a href="/contact.html" class="menu-item">Contact</a>
-                <a href="/reservations.html" class="menu-item menu-button">Reservations</a>
-            </nav>
-        </div>
-        <div class="baseline">
-            <span class="baseline-welcome">Welcome</span>
-            <strong class="baseline-name">( U )( MA )( MI )</strong>
-            <span class="baseline-slogan">The fifth taste</span>
-            <span class="baseline-descr">Umami is a Japanese term for one of the five basic flavors.</span>
-        </div>
-    </header>
-    <section class="home-section">
-        <div class="container-small">
-            <div class="block block-left">
-                <div class="block-img">
-                    <img src="/img/food2.jpg" alt="">
-                </div>
-                <div class="block-body">
-                    <h2 class="title"><span>Discover</span> our gastronomy</h2>
-                    <p>Bienvenue chez nous,<br>
-                        Ici, dans notre petit écrin, avec seulement 16 places, simplicité et convivialité sont les mots d’ordre. Seule en salle, c’est Jessica qui s’occupera de vous.
-                        En cuisine, c’est la même chose. C’est René, lui aussi seul, qui officie.
-                        Fusion, parfum, créativité, savoureux, simplicité, sont souvent les mots qui reviennent. Mais en fait ma cuisine reflète tout simplement, mon expérience et mon envie de faire bien.</p>
-                    <div class="more">
-                        <a href="/recipe.html">See more</a>
-                    </div>
-                </div>
+            <div class="baseline">
+                <span class="baseline-welcome">Welcome</span>
+                <strong class="baseline-name">( U )( MA )( MI )</strong>
+                <span class="baseline-slogan">The fifth taste</span>
+                <span class="baseline-descr">Umami is a Japanese term for one of the five basic flavors.</span>
             </div>
-            <div class="block block-right">
-                <div class="block-img">
-                    <img src="/img/food1.jpg" alt="">
-                </div>
-                <div class="block-body">
-                    <h2 class="title"><span>Tasteful</span> homemade recipes</h2>
-                    <p>C'est en 1908 que le professeur japonais Kikunae Ikeda identifia cette nouvelle saveur, en goûtant un bouillon d'algues.
-                        <br>Il ne reconnu aucune des quatre saveurs de base connues jusqu'alors (sucré, salé, acide, amer).
-
-                        Il appela cette nouvelle saveur Umami, qu'on peut traduire par savoureux.
-
-                        Depuis les années 1980, les tenants de la théorie des quatre saveurs ont ajouté cette cinquième à leur typologie, et conservé le nom d'umami.</p>
-                    <div class="more">
-                        <a href="/recipe.html">See more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="block block-center block-last">
-                <div class="block-body">
-                    <h2 class="title"><span>Menu</span> made with love</h2>
-                    <p>
-                        Vu la nature de notre cuisine et l'utilisation en permanence de la sauce soja, nous ne sommes pas en mesure de pallier<strong> aux allergies</strong>&nbsp;au&nbsp;<strong>gluten</strong>, à <strong>l'ail</strong> et aux <strong>produits laitiers</strong>.
-                    </p>
-                </div>
-            </div>
-            <nav class="ingredient-menu">
-                <a href="" class="active">Starters</a>
-                <a href="">Sushi</a>
-                <a href="">Ramen</a>
-                <a href="">Drinks</a>
-            </nav>
-            <div class="container">
-                <div class="menu-summary">
-                    <div class="menu-summary-item">
-                        <img src="/img/menu/appetizer/app1.jpg" alt="" class="menu-summary-image">
-                        <h3 class="menu-summary-title">Tempura</h3>
-                        <p>Tempura is a typical Japanese dish usually consisting of seafood, meat and vegetables that have been battered and deep fried.</p>
-                        <div class="menu-summary-price">
-                            $8
-                        </div>
-                    </div>
-                    <div class="menu-summary-item">
-                        <img src="/img/menu/appetizer/app2.jpg" alt="" class="menu-summary-image">
-                        <h3 class="menu-summary-title">Miso Soup</h3>
-                        <p>Miso is a traditional Japanese seasoning. It is produced by fermenting soybeans with salt and kōji and rice, barley, seaweed.</p>
-                        <div class="menu-summary-price">
-                            $7
-                        </div>
-                    </div>
-                    <div class="menu-summary-item">
-                        <img src="/img/menu/appetizer/app3.jpg" alt="" class="menu-summary-image">
-                        <h3 class="menu-summary-title">Fried Tofu</h3>
-                        <p>Agedashi dofu, or agedashi tofu, is a traditional Japanese tofu dish. It is deep fried tofu with a crispy crust formed by a potato starch coating.</p>
-                        <div class="menu-summary-price">
-                            $7
-                        </div>
-                    </div>
-                    <div class="menu-summary-item">
-                        <img src="/img/menu/appetizer/app4.jpg" alt="" class="menu-summary-image">
-                        <h3 class="menu-summary-title">Gyoza</h3>
-                        <p>It’s a traditional, authentic recipe. Juicy on the inside, a golden brown and crispy base, these are made in a skillet and are one of my all-time favourite Japanese dishes! </p>
-                        <div class="menu-summary-price">
-                            $8
-                        </div>
-                    </div>
-                </div>
-                <div class="block block-chief">
+        </header>
+        <section class="home-section">
+            <div class="container-small">
+                <div class="block block-left">
                     <div class="block-img">
-                        <img src="/img/chef.jpg" alt="">
+                        <img src="/img/food2.jpg" alt="">
                     </div>
                     <div class="block-body">
-                        <h2 class="title"><span>Discover</span> our chef</h2>
-                        <p>Renowned chef Han Ji has made Umami a hit formula.</p>
-                        <p>In this bright contemporary restaurant, he concocts high-flying Asian fusion cuisine. Sweet and umami, crispy and creamy, fragrant and colorful… The palette of taste impressions is intense. An irresistible exotic experience!</p>
+                        <h2 class="title"><span>Discover</span> our gastronomy</h2>
+                        <p>Bienvenue chez nous,<br>
+                            Ici, dans notre petit écrin, avec seulement 16 places, simplicité et convivialité sont les mots d’ordre. Seule en salle, c’est Jessica qui s’occupera de vous.
+                            En cuisine, c’est la même chose. C’est René, lui aussi seul, qui officie.
+                            Fusion, parfum, créativité, savoureux, simplicité, sont souvent les mots qui reviennent. Mais en fait ma cuisine reflète tout simplement, mon expérience et mon envie de faire bien.</p>
                         <div class="more">
                             <a href="/recipe.html">See more</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="reservation" id="reservation">
-        <div class="container">
-            <div class="block block-center block-last">
-                <div class="block-body">
-                    <h2 class="title"><span>Reservation</span> come to our world</h2>
-                    <p>THE VEGETARIAN MENU MUST BE ORDERED DURING YOUR RESERVATION<br>Without confirmation by email, the reservation is not validated!
-                        <br>
-                        RESERVATIONS OPEN TWO MONTHS BEFORE THE DATE
-                    </p>
-                    <form action="#" class="reservation-form">
-                        <div class="reservation-form-row">
-                            <input type="text" name="fullname" placeholder="Your name">
-                            <select name="persons">
-                                <option value="1">For 1</option>
-                                <option value="2">For 2</option>
-                                <option value="3">For 3</option>
-                                <option value="4">For 4</option>
-                                <option value="5">For 5</option>
-                                <option value="6">For 6</option>
-                            </select>
-                            <input type="date" name="date">
+                <div class="block block-right">
+                    <div class="block-img">
+                        <img src="/img/food1.jpg" alt="">
+                    </div>
+                    <div class="block-body">
+                        <h2 class="title"><span>Tasteful</span> homemade recipes</h2>
+                        <p>C'est en 1908 que le professeur japonais Kikunae Ikeda identifia cette nouvelle saveur, en goûtant un bouillon d'algues.
+                            <br>Il ne reconnu aucune des quatre saveurs de base connues jusqu'alors (sucré, salé, acide, amer).
+
+                            Il appela cette nouvelle saveur Umami, qu'on peut traduire par savoureux.
+
+                            Depuis les années 1980, les tenants de la théorie des quatre saveurs ont ajouté cette cinquième à leur typologie, et conservé le nom d'umami.</p>
+                        <div class="more">
+                            <a href="/recipe.html">See more</a>
                         </div>
-                        <button class="button">Reserve a table</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="recipes" id="recipes">
-        <div class="container">
-            <h2 class="title">
-                <span>Recipe</span>
-                We share our recipes
-            </h2>
-            <p>You will find some of our awesome recipes, specially created for you.</p>
-            <div class="recipes-list">
-                <div class="recipes-list-item">
-                    <div class="recipes-date">
-                        <strong>29</strong> SEP
                     </div>
-                    <p>Japanese-Style Fried Tofu</p>
                 </div>
-            </div>
-            <div class="recipes-list">
-                <div class="recipes-list-item">
-                    <div class="recipes-date">
-                        <strong>21</strong> OCT
+                <div class="block block-center block-last">
+                    <div class="block-body">
+                        <h2 class="title"><span>Menu</span> made with love</h2>
+                        <p>
+                            Vu la nature de notre cuisine et l'utilisation en permanence de la sauce soja, nous ne sommes pas en mesure de pallier<strong> aux allergies</strong>&nbsp;au&nbsp;<strong>gluten</strong>, à <strong>l'ail</strong> et aux <strong>produits laitiers</strong>.
+                        </p>
                     </div>
-                    <p>Unadon (Japanese Eel Rice Bowl)</p>
                 </div>
-            </div>
-            <div class="recipes-list">
-                <div class="recipes-list-item">
-                    <div class="recipes-date">
-                        <strong>25</strong> DEC
+                <nav class="ingredient-menu">
+                    <a href="" class="active">Starters</a>
+                    <a href="">Sushi</a>
+                    <a href="">Ramen</a>
+                    <a href="">Drinks</a>
+                </nav>
+                <div class="container">
+                    <div class="menu-summary">
+                        <div class="menu-summary-item">
+                            <img src="/img/menu/appetizer/app1.jpg" alt="" class="menu-summary-image">
+                            <h3 class="menu-summary-title">Tempura</h3>
+                            <p>Tempura is a typical Japanese dish usually consisting of seafood, meat and vegetables that have been battered and deep fried.</p>
+                            <div class="menu-summary-price">
+                                $8
+                            </div>
+                        </div>
+                        <div class="menu-summary-item">
+                            <img src="/img/menu/appetizer/app2.jpg" alt="" class="menu-summary-image">
+                            <h3 class="menu-summary-title">Miso Soup</h3>
+                            <p>Miso is a traditional Japanese seasoning. It is produced by fermenting soybeans with salt and kōji and rice, barley, seaweed.</p>
+                            <div class="menu-summary-price">
+                                $7
+                            </div>
+                        </div>
+                        <div class="menu-summary-item">
+                            <img src="/img/menu/appetizer/app3.jpg" alt="" class="menu-summary-image">
+                            <h3 class="menu-summary-title">Fried Tofu</h3>
+                            <p>Agedashi dofu, or agedashi tofu, is a traditional Japanese tofu dish. It is deep fried tofu with a crispy crust formed by a potato starch coating.</p>
+                            <div class="menu-summary-price">
+                                $7
+                            </div>
+                        </div>
+                        <div class="menu-summary-item">
+                            <img src="/img/menu/appetizer/app4.jpg" alt="" class="menu-summary-image">
+                            <h3 class="menu-summary-title">Gyoza</h3>
+                            <p>It’s a traditional, authentic recipe. Juicy on the inside, a golden brown and crispy base, these are made in a skillet and are one of my all-time favourite Japanese dishes! </p>
+                            <div class="menu-summary-price">
+                                $8
+                            </div>
+                        </div>
                     </div>
-                    <p>Sonoko Sakai's Gyoza</p>
+                    <div class="block block-chief">
+                        <div class="block-img">
+                            <img src="/img/chef.jpg" alt="">
+                        </div>
+                        <div class="block-body">
+                            <h2 class="title"><span>Discover</span> our chef</h2>
+                            <p>Renowned chef Han Ji has made Umami a hit formula.</p>
+                            <p>In this bright contemporary restaurant, he concocts high-flying Asian fusion cuisine. Sweet and umami, crispy and creamy, fragrant and colorful… The palette of taste impressions is intense. An irresistible exotic experience!</p>
+                            <div class="more">
+                                <a href="/recipe.html">See more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="more">
-                <a href="#">Find more on our blog</a>
+        </section>
+        <section class="reservation" id="reservation">
+            <div class="container">
+                <div class="block block-center block-last">
+                    <div class="block-body">
+                        <h2 class="title"><span>Reservation</span> come to our world</h2>
+                        <p>THE VEGETARIAN MENU MUST BE ORDERED DURING YOUR RESERVATION<br>Without confirmation by email, the reservation is not validated!
+                            <br>
+                            RESERVATIONS OPEN TWO MONTHS BEFORE THE DATE
+                        </p>
+                        <form action="#" class="reservation-form">
+                            <div class="reservation-form-row">
+                                <input type="text" name="fullname" placeholder="Your name">
+                                <select name="persons">
+                                    <option value="1">For 1</option>
+                                    <option value="2">For 2</option>
+                                    <option value="3">For 3</option>
+                                    <option value="4">For 4</option>
+                                    <option value="5">For 5</option>
+                                    <option value="6">For 6</option>
+                                </select>
+                                <input type="date" name="date">
+                            </div>
+                            <button class="button">Reserve a table</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <div class="map" id="map"></div>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript">
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
+        </section>
+        <section class="recipes" id="recipes">
+            <div class="container">
+                <h2 class="title">
+                    <span>Recipe</span>
+                    We share our recipes
+                </h2>
+                <p>You will find some of our awesome recipes, specially created for you.</p>
+                <div class="recipes-list">
+                    <div class="recipes-list-item">
+                        <div class="recipes-date">
+                            <strong>29</strong> SEP
+                        </div>
+                        <p>Japanese-Style Fried Tofu</p>
+                    </div>
+                </div>
+                <div class="recipes-list">
+                    <div class="recipes-list-item">
+                        <div class="recipes-date">
+                            <strong>21</strong> OCT
+                        </div>
+                        <p>Unadon (Japanese Eel Rice Bowl)</p>
+                    </div>
+                </div>
+                <div class="recipes-list">
+                    <div class="recipes-list-item">
+                        <div class="recipes-date">
+                            <strong>25</strong> DEC
+                        </div>
+                        <p>Sonoko Sakai's Gyoza</p>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#">Find more on our blog</a>
+                </div>
+            </div>
+        </section>
+        <div class="map" id="map"></div>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-cols">
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            Umami
+                        </div>
+                        <p>
+                            A modern cuisine with influences from around the world is offered in a setting of refined elegance, enhanced with red.
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            Contact Info
+                        </div>
+                         <p>
+                             8 rue des Dentelles, 67000 Strasbourg
+                             03 88 32 80 53
+                             <a href="mailto:contact@restaurant-umami.com">contact@restaurant-umami.com</a>
+                         </p>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            Openings Hours
+                        </div>
+                        <ul>
+                            <li>Open Monday to Friday from 7:30 p.m. to 9 p.m.</li>
+                            <li>Closed Saturday and Sunday</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-credits">
+                    <span>07/05/2022 AdrienHq</span>  Non-Commercial Use
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
 
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 11,
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
 
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(48.580933, 7.743015), // New York
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(48.580933, 7.743015), // New York
 
-                // How you would like to style the map.
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-            };
+                    // How you would like to style the map.
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+                };
 
-            // Get the HTML DOM element that will contain your map
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
+                // Get the HTML DOM element that will contain your map
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
 
-            // Create the Google Map using our element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
 
-            // Let's also add a marker while we're at it
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(48.580933, 7.743015),
-                map: map,
-                title: 'Umami!'
-            });
-        }
-    </script>
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(48.580933, 7.743015),
+                    map: map,
+                    title: 'Umami!'
+                });
+            }
+        </script>
     </body>
 </html>

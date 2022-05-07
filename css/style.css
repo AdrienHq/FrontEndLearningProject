@@ -328,6 +328,21 @@ select option{
     width: 100%;
     height: 460px;
 }
+.footer{
+    background: #383838;
+    font-weight: 300;
+    color: white;
+    padding: 40px 0;
+}
+.footer-title{
+    color: #C89446;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-col{
+    margin-bottom: 2rem;
+}
 
 @media only screen and (min-width: 600px ) {
     html {
@@ -528,5 +543,40 @@ select option{
     }
     .recipes-list-item:last-child{
         padding-bottom: 0;
+    }
+    .footer-cols{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-col{
+        width: 300px;
+        flex: none;
+        margin-right: 50px ;
+    }
+    .footer-col:first-child{
+        width: 450px;
+    }
+    .footer-col:last-child{
+        margin-right: 0;
+        flex: none;
+    }
+    .footer a{
+        text-decoration: underline;
+    }
+    .footer a:hover{
+        color: #C89446;
+    }
+    .footer ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    .footer ul li::before{
+        content: '- ';
+    }
+    .footer-credits{
+        font-size: 0.8em;
+    }
+    .footer-credits span{
+        font-weight: bold;
     }
 }
