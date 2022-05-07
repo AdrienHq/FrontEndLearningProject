@@ -205,7 +205,61 @@ img {
     color: #C89446;
     line-height: 1;
 }
-
+.reservation {
+    background:
+            linear-gradient(180deg, rgba(0, 0, 0, 0.92) 15.5%, rgba(54, 54, 54, 0.5) 39.24%),
+            rgba(28, 28, 28, 0.4)
+            url(/img/reservation.jpg) center center / cover no-repeat;
+    color: #6F6F6F;
+    padding: 50px 0;
+}
+.reservation .title{
+    color: #FFF;
+}
+.reservation input, .reservation select{
+    padding: 0 0.5rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #6F6F6F;
+    background: transparent;
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 0.875rem;
+    color: #FFF;
+    font-family: "Source Sans Pro", serif;
+    transition: background .3s, border-color .3s;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.reservation select{
+    background: no-repeat right 0.5rem center url("/img/check.svg");
+    background-size: 25px;
+}
+.reservation input:focus, .reservation select:focus{
+    background-color: rgba(255, 255,255, .1);
+    border-color: #C89446;
+}
+.reservation button {
+    width: 100%;
+}
+.button {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    background: #C89446;
+    border: none;
+    border: solid 1px transparent;
+    padding: 11px 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}
+.button:hover {
+    color: #C89446;
+    border: solid 1px #C89446;
+    background: transparent;
+}
 
 @media only screen and (min-width: 600px ) {
     html {
@@ -365,5 +419,8 @@ img {
         flex: none;
         width: 404px;
         order: 2;
+    }
+    .reservation{
+        padding: 100px 0;
     }
 }
