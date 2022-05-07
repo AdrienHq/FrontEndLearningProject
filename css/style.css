@@ -260,6 +260,17 @@ img {
     border: solid 1px #C89446;
     background: transparent;
 }
+.reservation p{
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reservation .block-center .block-body{
+    max-width: 825px;
+}
+select option{
+    color: black;
+}
 
 @media only screen and (min-width: 600px ) {
     html {
@@ -422,5 +433,17 @@ img {
     }
     .reservation{
         padding: 100px 0;
+    }
+    .reservation-form-row{
+        margin: 64px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .reservation-form-row input, .reservation-form-row select{
+        width: calc(33.33% - 20px);
+        margin-bottom: 0;
+    }
+    .reservation .button{
+        width: calc(33.33% - 20px);
     }
 }
