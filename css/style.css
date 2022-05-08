@@ -433,6 +433,30 @@ select option{
         justify-content: space-between;
         align-items: center;
     }
+    .block-menu{
+        flex: none;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .block-menu .title-menu {
+        font-family: "Pinyon Script", serif;
+        font-weight: bold;
+        font-size: 80px;
+        color: #C89446;
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .block-menu h3{
+        font-style: italic;
+        font-size: 22px;
+        font-family: "Source Sans Pro", serif;
+        text-decoration: underline wavy #C89446 1px;
+    }
+    .block-menu p{
+        text-decoration: #383838;
+        font-size: 18px;
+    }
     .block-img {
         border: none;
         position: relative;
