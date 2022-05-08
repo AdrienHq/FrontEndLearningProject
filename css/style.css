@@ -667,6 +667,16 @@ select option{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .container h1{
+        font-family: "Source Sans Pro", serif;
+        color: #C89446;
+        text-align: center;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 60px;
+        text-decoration: underline;
+        font-size: 32px;
+    }
     .recipes-mosaic .menu-summary-item{
         width: calc(50% - 50px);
     }
