@@ -343,7 +343,45 @@ select option{
 .footer-col{
     margin-bottom: 2rem;
 }
-
+.block-ingredients{
+    border: solid 1px #C89446;
+    padding: 35px 20px;
+    font-weight: 600;
+    color: #383838;
+}
+.block-ingredients ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.block-ingredients li{
+    padding: 4px 0;
+}
+.block-ingredients span{
+    width: 35px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: 300;
+}
+.section-overflow {
+    padding: 20px 0;
+}
+.block-video{
+    text-align: center;
+    background: #383838;
+    opacity: .8;
+}
+.block-video iframe {
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.5);
+    transition: opacity .3s;
+}
+.block-video:hover iframe{
+    opacity: .9;
+}
+.recipes-mosaic .more{
+    margin-top: 0.5rem;
+}
 @media only screen and (min-width: 600px ) {
     html {
         font-size: 16px;
@@ -456,12 +494,12 @@ select option{
         margin-bottom: 120px;
         width: calc(50% - 40px);
     }
-    .menu-summary-item:nth-child(even) {
+    .menu-summary .menu-summary-item:nth-child(even) {
         text-align: right;
         padding-left: 0;
         padding-right: 192px;
     }
-    .menu-summary-item:nth-child(even) .menu-summary-image {
+    .menu-summary .menu-summary-item:nth-child(even) .menu-summary-image {
         left: auto;
         right: 0;
     }
@@ -521,6 +559,9 @@ select option{
     .recipes{
         padding: 60px 0;
     }
+    .recipes a:hover{
+        text-decoration: underline;
+    }
     .recipes .title{
         text-align: right;
     }
@@ -579,4 +620,39 @@ select option{
     .footer-credits span{
         font-weight: bold;
     }
+    .block-ingredients{
+        width: 350px;
+        padding: 35px 40px;
+    }
+    .block-ingredients li{
+         padding: 10px 0;
+     }
+    .block-ingredients span{
+        width: 35px;
+        margin-right: 50px;
+    }
+    .section-overflow {
+        padding: 0;
+        margin: -20px;
+    }
+    .block-right .block-video{
+        margin-left: 28px;
+    }
+    .recipes-mosaic{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .recipes-mosaic .menu-summary-item{
+        width: calc(50% - 50px);
+    }
+    .recipes-mosaic .menu-summary-item{
+        padding-left: 150px;
+        margin-bottom: 60px;
+        font-size: 0.875rem;
+    }
+    .recipes-mosaic .menu-summary-image{
+        width: 125px;
+    }
+
 }
