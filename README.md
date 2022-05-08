@@ -22,8 +22,8 @@ Bootstrap 5.1
 - https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
 CSS
-- [ ] https://grafikart.fr/formations/css
+- [X] https://grafikart.fr/formations/css
 - https://www.w3schools.com/w3css/w3css_versions.asp
 
 HTPP
-- [ ] https://grafikart.fr/formations/upload-site
+- [X] https://grafikart.fr/formations/upload-site
